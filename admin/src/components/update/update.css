@@ -1,0 +1,42 @@
+.updateForm {
+    background-color: brown;
+    color: white;
+    padding: 5vh 5vw 10vh 5vw;
+    width: 50vw;
+    height: 90vh;
+    margin: 5vh 0 0 5vw;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.updateTit {
+    font-size: 1.6rem;
+    padding: 0 0 5vh 0;
+}
+.categoryInb, .imgInb, .longInb, .nameInb, .priceInb, .shortInb {
+    display: flex;
+}
+.cateTit, .imgTit, .longTit, .nameTit, .priceTit, .shortTit {
+    padding: 0 5vw 5vh 0;
+    width: 10vw;
+}
+.categoryInb input, .imgInb input, .longInb input, .nameInb input, .priceInb input, .shortInb input{
+    width: 30vw;
+    height: 5vh;
+    font-size: 0.8rem;
+}
+.submit button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 0.5rem;
+}
+.submit button:hover{
+    background-color: green;
+    color: white;
+}
+.submit{
+    padding: 0 0 5vw 0;
+    display: flex;
+}
+.return {
+    padding: 0 0 0 2vw;
+}
